@@ -72,11 +72,13 @@ Open a second command prompt and enter:
 
 	%LocalAppData%\Lnd\bin\lncli.exe create
 	
-Then enter a password of your choice and confirm it.
+Then enter a password of your choice and confirm it. (instead of displaying an asterisk or some other placeholder the command prompt may blank, but it is actually recognizing your keystrokes).
 
 Type "n" when prompted "Do you have an existing cipher seed mnemonic you want to use?" and press Enter.
 
 Press Enter again when prompted to "Input your passphrase if you wish to encrypt it".
+
+Write down the 24 phrase wallet recovery seed.
 
 Close all command prompts.
 
